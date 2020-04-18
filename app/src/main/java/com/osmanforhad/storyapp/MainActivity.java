@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                String Story_Details = dStory[position];
 
                /* after clicking the title going to next activity **/
-                Intent intent = new Intent(MainActivity.this, Main2Activity.clss);
+                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
 
                 /* sending data into second activity **/
                 intent.putExtra("story",Story_Details);
