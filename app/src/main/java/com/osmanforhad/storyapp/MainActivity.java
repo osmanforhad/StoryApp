@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         /* initial the story Details form strings xml file**/
         final String[] dStory = getResources().getStringArray(R.array.details_story);
 
-        /* making array Adapter for displaying Story Title listView**/
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, tStory);
+        /* making array Adapter for displaying Story Title listView using custom row**/
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.row,R.id.rowTxt, tStory);
 
         /* setup Adapter into the listView **/
         listView.setAdapter(adapter);
