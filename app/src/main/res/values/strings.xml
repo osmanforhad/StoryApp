@@ -3,40 +3,164 @@
 
     <!-- Storing Title of the story into a array -->
     <string-array name="title_story">
-        <item>story1</item>
-        <item>story2</item>
-        <item>story3</item>
-        <item>story4</item>
-        <item>story5</item>
-        <item>story6</item>
-        <item>story7</item>
-        <item>story8</item>
-        <item>story9</item>
-        <item>story10</item>
-        <item>story11</item>
-        <item>story12</item>
-        <item>story13</item>
-        <item>story14</item>
-        <item>story15</item>
+        <item>An Old Man Lived in the Village</item>
+        <item>The Wise Man</item>
+        <item>The Foolish Donkey</item>
+        <item>Having A Best Friend</item>
+        <item>The Four Smart Students</item>
+        <item>The Greedy Lion</item>
+        <item>Two Friends and The Bear</item>
+        <item>The Struggles of Our Life</item>
+        <item>The Fox and The Grapes</item>
+        <item>The Lion and The Poor Slave</item>
+        <item>The Bogey Beast</item>
+        <item>The Tortoise and the Hare</item>
+        <item>The Tale of Johnny Town-Mouse</item>
+        <item>The Night Train at Deoli</item>
+        <item>There Will Come Soft Rains</item>
     </string-array>
 
     <!-- Storing Details of the story into a array -->
     <string-array name="details_story">
-        <item>story1</item>
-        <item>story2</item>
-        <item>story3</item>
-        <item>story4</item>
-        <item>story5</item>
-        <item>story6</item>
-        <item>story7</item>
-        <item>story8</item>
-        <item>story9</item>
-        <item>story10</item>
-        <item>story11</item>
-        <item>story12</item>
-        <item>story13</item>
-        <item>story14</item>
-        <item>story15</item>
+        <item>An old man lived in the village. He was one of the most unfortunate people in the
+            world. The whole village was tired of him; he was always gloomy, he constantly
+            complained and was always in a bad mood.The longer he lived, the more bile he was
+            becoming and the more poisonous were his words. People avoided him, because his
+            misfortune became contagious. It was even unnatural and insulting to be happy next to
+            him.He created the feeling of unhappiness in others.But one day, when he turned eighty
+            years old, an incredible thing happened. Instantly everyone started hearing the rumour:
+“An Old Man is happy today, he doesn’t complain about anything, smiles, and even his face is
+            freshened up.”The whole village gathered together. The old man was asked:Villager: What
+            happened to you?“Nothing special. Eighty years I’ve been chasing happiness, and it was
+            useless. And then I decided to live without happiness and just enjoy life. That’s why
+            I’m happy now.” – An Old Man\n\n
+         best friend slapped me in the face.”They kept on walking until they found an oasis,
+            where they decided to take a bath. The one who had been slapped got stuck in the mire
+            and started drowning, but the friend saved him. After he recovered from the near
+            drowning, he wrote on a stone;“Today my best friend saved my life.”The friend who had
+            slapped and saved his best friend asked him;“After I hurt you, you wrote in the
+            sand and now, you write on a stone, why?”The other friend replied;“When someone hurts us
+            we should write it down in sand where winds of forgiveness can erase it away. But, when
+            someone does something good for us, we must engrave it in stone where no wind can ever
+            erase it.”</item>
+
+        <item>People have been coming to the wise man, complaining about the same problems every
+            time. One day he told them a joke and everyone roared in laughter.After a couple of
+            minutes, he told them the same joke and only a few of them smiled.When he told the same
+            joke for the third time no one laughed anymore.The wise man smiled and said:“You can’t
+            laugh at the same joke over and over. So why are you always crying about the same
+            problem?”</item>
+
+        <item>A salt seller used to carry the salt bag on his donkey to the market every day.On the
+            way they had to cross a stream. One day the donkey suddenly tumbled down the stream and
+            the salt bag also fell into the water. The salt dissolved in the water and hence the bag
+            became very light to carry. The donkey was happy.Then the donkey started to play the
+            same trick every day.The salt seller came to understand the trick and decided to teach a
+            lesson to it. The next day he loaded a cotton bag on the donkey.Again it played the same
+            trick hoping that the cotton bag would be still become lighter.But the dampened cotton
+            became very heavy to carry and the donkey suffered. It learnt a lesson. It didn’t play
+            the trick anymore after that day, and the seller was happy.</item>
+
+        <item>A story tells that two friends were walking through the desert. During some point of
+            the journey they had an argument, and one friend slapped the other one in the face.The
+            one who got slapped was hurt, but without saying anything, wrote in the sand;“Today my
+            best friend slapped me in the face.”They kept on walking until they found an oasis,
+            where they decided to take a bath. The one who had been slapped got stuck in the mire
+            and started drowning, but the friend saved him. After he recovered from the near
+            drowning, he wrote on a stone;“Today my best friend saved my life.”The friend who had
+            slapped and saved his best friend asked him;“After I hurt you, you wrote in the
+            sand and now, you write on a stone, why?”The other friend replied;“When someone hurts us
+            we should write it down in sand where winds of forgiveness can erase it away. But, when
+            someone does something good for us, we must engrave it in stone where no wind can ever
+            erase it.”</item>
+
+        <item>One night four college students were out partying late night and didn’t study for the
+            test which was scheduled for the next day. In the morning, they thought of a plan.They
+            made themselves look dirty with grease and dirt.Then they went to the Dean and said they
+            had gone out to a wedding last night and on their way back the tire of their car burst
+            and they had to push the car all the way back. So they were in no condition to take the
+            test.</item>
+
+        <item>It was an incredibly hot day, and a lion was feeling very hungry.He came out of his
+            den and searched here and there. He could find only a small hare. He caught the hare
+            with some hesitation. “This hare can’t fill my stomach” thought the lion.</item>
+
+        <item>Vijay and Raju were friends. On a holiday they went walking into a forest, enjoying
+            the beauty of nature. Suddenly they saw a bear coming at them. They became frightened.
+            Raju, who knew all about climbing trees, ran up to a tree and climbed up quickly.
+            He didn’t think of Vijay. Vijay had no idea how to climb the tree.Vijay thought for a
+            second. He’d heard animals don’t prefer dead bodies, so he fell to the ground and held
+            his breath. The bear sniffed him and thought he was dead. So, it went on its way.</item>
+
+        <item>Once upon a time a daughter complained to her father that her life was miserable and
+            that she didn’t know how she was going to make it.She was tired of fighting and
+            struggling all the time. It seemed just as one problem was solved, another one soon
+            followed.Her father, a chef, took her to the kitchen. He filled three pots with water
+            and placed each on a high fire.Once the three pots began to boil, he placed potatoes in
+            one pot, eggs in the second pot and ground coffee beans in the third pot. He then let
+            them sit and boil, without saying a word to his daughter.The daughter, moaned and
+            impatiently waited, wondering what he was doing. After twenty minutes he turned off the
+            burners.</item>
+
+        <item>Taking a few steps back, the fox jumped and just missed the hanging grapes. Again the
+            fox took a few paces back and tried to reach them but still failed.Finally, giving up,
+            the fox turned up his nose and said, “They’re probably sour anyway,” and proceeded to
+            walk away.</item>
+
+        <item>A slave, ill-treated by his master, runs away to the forest. There he comes across a
+            lion in pain because of a thorn in his paw. The slave bravely goes forward and removes
+            the thorn gently.The lion without hurting him goes away.Some days later, the slave’s
+            master comes hunting to the forest and catches many animals and cages them. The slave
+            is spotted by the masters’ men who catch him and bring him to the cruel master.The
+            master asks for the slave to be thrown into the lion’s cage.The slave is awaiting his
+            death in the cage when he realizes that it is the same lion that he had helped.
+            The slave rescued the lion and all other caged animals.</item>
+
+        <item>A woman finds a pot of treasure on the road while she is returning from work.
+            Delighted with her luck, she decides to keep it. As she is taking it home, it keeps
+            changing. However, her enthusiasm refuses to fade away.What Is Great About It: The old
+            lady in this story is one of the most cheerful characters anyone can encounter in
+            English fiction. Her positive disposition (personality) tries to make every negative
+            transformation seem like a gift, and she helps us look at luck as a matter of
+            perspective rather than events.</item>
+
+        <item>This classic fable tells the story of a very slow tortoise (another word for turtle)
+            and a speedy hare (another word for rabbit). The tortoise challenges the hare to a race.
+            The hare laughs at the idea that a tortoise could run faster than him, but when the two
+            actually race, the results are surprising.What Is Great About It: Have you ever heard
+            the English expression, “Slow and steady wins the race”? This story is the basis for
+            that common phrase. This timeless short story teaches a lesson that we all know but can
+            sometimes forget: Natural talent is no substitute for hard work, and overconfidence
+            often leads to failure.This short story is available on FluentU, so you can take
+            advantages of all of FluentU’s great language-learning features while revisiting this
+            childhood classic.</item>
+
+        <item>Timmie Willie is a country mouse who is accidentally transported to a city in a
+            vegetable basket. When he wakes up, he finds himself in a party and makes a friend.
+            When he is unable to bear the city life, he returns to his home but invites his friend
+            to the village. When his friend visits him, something similar happens.What Is Great
+            About It: Humans have been living without cities or villages for most of history. That
+            means that both village and city life are recent inventions. And just like every other
+            invention, we need to decide their costs and benefits.The story is precisely about this
+            debate. It is divided into short paragraphs and has illustrations for each scene. This
+            is best for beginners who want to start reading immediately.</item>
+
+        <item>Ruskin Bond used to spend his summer at his grandmother’s house in Dehradun. While
+            taking the train, he always had to pass through a small station called Deoli. No one
+            used to get down at the station and nothing happened there. Until one day he sees a
+            girl selling fruit and he is unable to forget her.What Is Great About It: Ruskin Bond is
+            a writer who can communicate deep feelings in a simple way. This story is about our
+            attachment to strangers and why we cherish them even though we do not meet them ever
+            again.</item>
+
+        <item>Earth has been destroyed by war and no one lives on it anymore. The robots and the
+            machines continue to function and serve human beings who have long ago died.What Is
+            Great About It: The title is taken from a poem that describes how nature will continue
+            its work long after humanity is gone. But in this story, we see that nature plays a
+            supporting role and the machines are the ones who have taken its place.They continue
+            their work without any human or natural assistance. This shows how technology has
+            replaced nature in our lives and how it can both destroy us and carry on without
+            humanity itself.</item>
     </string-array>
 
 </resources>
