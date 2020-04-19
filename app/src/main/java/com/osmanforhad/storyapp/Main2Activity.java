@@ -86,6 +86,30 @@ public class Main2Activity extends AppCompatActivity {
 
         });//end of the OnClickListener
 
+        /* code for next button **/
+        next_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                position = (position + 1) % dStory.length;
+                /* use dStory variable means the specific position form string array**/
+                textView.setText(dStory[position]);
+
+            }//end of the onClick method
+
+        });//end of the setOnClickListener
+
+        /* code for previous button **/
+        previous_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                position = (position - 1) % dStory.length;
+                /* use dStory variable means the specific position form string array**/
+                textView.setText(dStory[position]);
+                
+            }//end of the onClick method
+
+        });//end of the setOnClickListener
+
     }//end of the onCreate method
 
 }//end of the class
