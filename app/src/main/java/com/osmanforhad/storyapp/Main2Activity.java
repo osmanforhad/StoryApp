@@ -18,6 +18,7 @@ public class Main2Activity extends AppCompatActivity {
     TextView textView;
     Button button;
     Button share_btn;
+    Button next_btn, previous_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,8 @@ public class Main2Activity extends AppCompatActivity {
         textView = findViewById(R.id.txt);
         button = findViewById(R.id.copy_btn);
         share_btn = findViewById(R.id.share_btn);
+        next_btn = findViewById(R.id.next_btn);
+        previous_btn = findViewById(R.id.prev_btn);
 
         /* receive data which was send from 1st Activity **/
         final String dStory = getIntent().getStringExtra("story");
