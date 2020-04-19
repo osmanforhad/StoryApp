@@ -23,12 +23,32 @@
 
     </ScrollView>
 
-    <Button
-        android:id="@+id/copy_btn"
-        android:layout_width="match_parent"
+    <TableRow
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="copy"
+        android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:background="#4CAF50"/>
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/copy_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy"
+            android:layout_centerInParent="true"
+            android:background="#4CAF50"
+            android:layout_marginRight="15dp"/>
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="share"
+            android:layout_centerInParent="true"
+            android:background="#4CAF50"
+            android:layout_marginLeft="15dp"/>
+
+    </TableRow>
 
 </RelativeLayout>
