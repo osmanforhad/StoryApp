@@ -38,14 +38,18 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
                 /* passing position for open Details after clicking the title**/
-               String Story_Details = dStory[position];
+               //String Story_Details = dStory[position];
 
                /* after clicking the title going to next activity **/
                 Intent intent = new Intent(MainActivity.this, Main2Activity.class);
 
                 /* sending data into second activity **/
-                intent.putExtra("story",Story_Details);
+                intent.putExtra("story",dStory);
+
+                /* passing position for open Details after clicking the title**/
+                intent.putExtra("next story", position);
 
                 /* open the 2nd activity **/
                 startActivity(intent);
