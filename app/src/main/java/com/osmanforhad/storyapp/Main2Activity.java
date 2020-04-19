@@ -105,7 +105,7 @@ public class Main2Activity extends AppCompatActivity {
                 position = (position - 1) % dStory.length;
                 /* use dStory variable means the specific position form string array**/
                 textView.setText(dStory[position]);
-                
+
             }//end of the onClick method
 
         });//end of the setOnClickListener
