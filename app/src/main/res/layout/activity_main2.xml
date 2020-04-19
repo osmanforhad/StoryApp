@@ -5,11 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:background="#5B2FFF00"
     tools:context=".Main2Activity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/txt"
@@ -21,14 +26,12 @@
 
         </TextView>
 
-    </ScrollView>
-
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:layout_below="@id/txt"
         android:padding="10dp">
 
         <Button
@@ -50,5 +53,9 @@
             android:layout_marginLeft="15dp"/>
 
     </TableRow>
+
+</RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>
