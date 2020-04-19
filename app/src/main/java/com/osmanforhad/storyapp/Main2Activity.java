@@ -20,6 +20,9 @@ public class Main2Activity extends AppCompatActivity {
     Button share_btn;
     Button next_btn, previous_btn;
 
+    /* declaring Global variable **/
+    int position;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,10 +36,16 @@ public class Main2Activity extends AppCompatActivity {
         previous_btn = findViewById(R.id.prev_btn);
 
         /* receive data which was send from 1st Activity **/
-        final String dStory = getIntent().getStringExtra("story");
+        //final String dStory = getIntent().getStringExtra("story");
+
+        /* receive data into a string array which was send from 1st Activity **/
+        final String[] dStory = getIntent().getStringArrayExtra("story");
+
+        /* get the position which was send from 1st Activity or MainActivity**/
+        position = getIntent().getIntExtra("next story", 0);
 
         /* show the data which received from 1st activity **/
-        textView.setText(dStory);
+        textView.setText(dStory[position]);
 
         /* creating a OnClickListener for making copy button dynamic or clickable**/
         button.setOnClickListener(new View.OnClickListener() {
@@ -45,11 +54,11 @@ public class Main2Activity extends AppCompatActivity {
                 /* code for copying data **/
                 ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
                 /* use dStory variable means the specific position form string array**/
-                ClipData clip = ClipData.newPlainText("Text", dStory);
+                ClipData clip = ClipData.newPlainText("Text", dStory[position]);
                 clipboard.setPrimaryClip(clip);
 
                 /* display message to ensure the data is copy successfully **/
-                Toast.makeText(Main2Activity.this,"copied", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Main2Activity.this, "copied", Toast.LENGTH_SHORT).show();
 
             }//end of the onClick method
 
@@ -64,10 +73,10 @@ public class Main2Activity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_SEND);
                 /* use dStory variable means the specific position form string array**/
-                intent.putExtra(Intent.EXTRA_TEXT, dStory);
+                intent.putExtra(Intent.EXTRA_TEXT, dStory[position]);
 
                 /* type of data which we want to share **/
-                intent.setType("text/pain");
+                intent.setType("text/plain");
                 /* choose the platform for share the text **/
                 intent = Intent.createChooser(intent, "Share by");
                 /* time to share data **/
